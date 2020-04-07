@@ -8120,6 +8120,10 @@
 					A75FDB4823E399AC00529352 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					BECDF5FE0761BA81005FE872 = {
+						DevelopmentTeam = D9BR8NFB7H;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 0073178E0858DB0500B2BC32 /* Build configuration list for PBXProject "SDL" */;
@@ -10122,15 +10126,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9BR8NFB7H;
+				GCC_PREPROCESSOR_DEFINITIONS = "off64_t=off_t";
 				OTHER_LDFLAGS = "-liconv";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		00CFA623106A567900758660 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "off64_t=off_t";
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "x86_64 i386";
 			};
 			name = Release;
 		};
@@ -10202,15 +10213,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9BR8NFB7H;
+				GCC_PREPROCESSOR_DEFINITIONS = "off64_t=off_t";
 				OTHER_LDFLAGS = "-liconv";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		00CFA629106A568900758660 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "off64_t=off_t";
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "x86_64 i386";
 			};
 			name = Debug;
 		};
