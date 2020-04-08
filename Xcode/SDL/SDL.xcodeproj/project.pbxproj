@@ -8121,8 +8121,7 @@
 						CreatedOnToolsVersion = 11.3.1;
 					};
 					BECDF5FE0761BA81005FE872 = {
-						DevelopmentTeam = D9BR8NFB7H;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -10127,8 +10126,8 @@
 			buildSettings = {
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D9BR8NFB7H;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = "off64_t=off_t";
 				OTHER_LDFLAGS = "-liconv";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -10214,8 +10213,8 @@
 			buildSettings = {
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D9BR8NFB7H;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = "off64_t=off_t";
 				OTHER_LDFLAGS = "-liconv";
 				PROVISIONING_PROFILE_SPECIFIER = "";
