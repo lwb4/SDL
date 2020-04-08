@@ -10125,7 +10125,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = "off64_t=off_t";
@@ -10212,7 +10211,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = "off64_t=off_t";
